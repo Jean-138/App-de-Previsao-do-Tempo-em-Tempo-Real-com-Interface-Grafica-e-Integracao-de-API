@@ -42,8 +42,4 @@ Integrated with the OpenWeatherMap API, the app displays weather data through a 
 - Libraries listed in `requirements.txt`  
 - Free OpenWeatherMap API key (sign up at https://openweathermap.org/api)  
 
----
 
-## Installation and Usage
-
-### 1. Clone the repository
