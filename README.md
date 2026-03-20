@@ -1,102 +1,49 @@
+# Weather App with Python and Tkinter
 
-Um aplicativo desktop moderno desenvolvido em Python que fornece informações meteorológicas precisas de qualquer cidade do mundo. Integrado com a API OpenWeatherMap, exibe dados em tempo real com interface gráfica atraente.
+## Description
 
-## Funcionalidades
+A modern desktop application built with Python that provides accurate real-time weather information for any city worldwide.
 
-- Busca de clima por nome de cidade (suporta cidades em português)
-- Exibição de temperatura atual, sensação térmica e umidade
-- Informações de velocidade do vento e pressão atmosférica
-- Previsão estendida para os próximos 5 dias
-- Exibição da hora local da cidade selecionada
-- Coordenadas geográficas (latitude/longitude)
-- Interface gráfica moderna e intuitiva com Tkinter
-- Proteção de API key com arquivo .env
+Integrated with the OpenWeatherMap API, the app displays weather data through a clean and intuitive graphical interface.
 
-## Tecnologias Utilizadas
+---
 
-| Ferramenta | Função |
-|-----------|--------|
-| Python 3.x | Linguagem principal |
-| Tkinter | Interface gráfica desktop |
-| OpenWeatherMap API | Dados meteorológicos em tempo real |
-| geopy | Conversão de localidades em coordenadas |
-| pytz + TimezoneFinder | Gestão de fusos horários |
-| Pillow (PIL) | Manipulação e exibição de imagens |
-| requests | Requisições HTTP para APIs |
-| python-dotenv | Gerenciamento seguro de credenciais |
+## Features
 
-## Requisitos
+- Search weather by city name (supports cities in Portuguese)  
+- Display of current temperature, feels-like temperature, and humidity  
+- Wind speed and atmospheric pressure information  
+- 5-day extended forecast  
+- Local time of the selected city  
+- Geographic coordinates (latitude/longitude)  
+- Modern and intuitive GUI built with Tkinter  
+- Secure API key management using a `.env` file  
 
-- Python 3.7+
-- Bibliotecas listadas em requirements.txt
-- Chave de API gratuita do OpenWeatherMap (registre-se em https://openweathermap.org/api)
+---
 
-## Como Instalar e Usar
+## Technologies Used
 
-### 1. Clone o repositório
-git clone [seu-link-github]
-cd Weather-App
+| Tool | Purpose |
+|------|--------|
+| Python 3.x | Main programming language |
+| Tkinter | Desktop graphical interface |
+| OpenWeatherMap API | Real-time weather data |
+| geopy | Geolocation and coordinate conversion |
+| pytz + TimezoneFinder | Timezone management |
+| Pillow (PIL) | Image processing and display |
+| requests | HTTP requests for API communication |
+| python-dotenv | Secure environment variable management |
 
-### 2. Crie um ambiente virtual
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate  # Windows
+---
 
-### 3. Instale as dependências
-pip install -r requirements.txt
+## Requirements
 
-### 4. Configure a API key
-Crie um arquivo .env na raiz do projeto:
-WEATHER_API_KEY=sua_chave_aqui
+- Python 3.7+  
+- Libraries listed in `requirements.txt`  
+- Free OpenWeatherMap API key (sign up at https://openweathermap.org/api)  
 
-### 5. Execute o aplicativo
-python main.py
+---
 
-## Como Usar
+## Installation and Usage
 
-1. Inicie o app executando python main.py
-2. Digite o nome da cidade no campo de busca (ex: "São Paulo", "Rio de Janeiro")
-3. Clique no botão de busca para obter os dados
-4. Visualize os dados atualizados com temperatura, umidade, vento e mais
-5. Confira a previsão para os próximos 5 dias com ícones visuais
-
-## Estrutura do Projeto
-
-Weather-App/
-├── main.py                 # Arquivo principal com lógica do app
-├── requirements.txt        # Dependências do projeto
-├── .env                    # Arquivo de configuração (não versionado)
-├── .gitignore             # Arquivos ignorados pelo Git
-├── Images/                # Pasta com ícones de clima
-│   ├── logo.png
-│   ├── search.png
-│   └── ...
-└── README.md              # Este arquivo
-
-## Conceitos Técnicos Aplicados
-
-- API REST: Integração com serviço externo para dados em tempo real
-- Geolocalização: Conversão de nomes de cidades em coordenadas geográficas
-- Fuso Horário Dinâmico: Ajuste automático da hora local de cada cidade
-- GUI Responsiva: Interface desktop com Tkinter
-- Segurança: Proteção de credenciais com variáveis de ambiente
-
-## Melhorias Futuras
-
-- Tratamento robusto de erros com try/except
-- Validação de entrada do usuário
-- Suporte a tema claro/escuro
-- Histórico de buscas
-- Notificações de alertas meteorológicos
-- Integração com localização automática do usuário
-- Possibilidade de salvar cidades favoritas
-- Tradução completa para português
-
-## Licença
-
-Este projeto é de código aberto e disponível sob a licença MIT.
-
-
-## Contribuições
-
-Sugestões e melhorias são bem-vindas! Abra uma issue ou faça um pull request.
+### 1. Clone the repository
